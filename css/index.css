@@ -1,0 +1,140 @@
+#contenedor{
+    width: 900px;
+    height: 926px;
+    margin: auto;
+}
+body{
+    background: linear-gradient(#C8A2C8,#FFC0CB) no-repeat;
+}
+header{
+    width: 900px;
+    height: 200px;
+    background: url("../imagenes/Byes.png") center;
+    border: 1px solid black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.ico{
+    width: 35px;
+    height: 35px;
+    margin-top: 160px;
+    margin-left: 5px;
+}
+.ico:hover{
+    box-shadow: 1px 1px 50px #C8A2C8,1px 1px 20px #FFC0CB;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background: #fe62b1;
+    float: left;
+    border: 1px solid black;
+}
+#menu{
+    list-style-type: none;
+    font-family: courier;
+    font-size: 28px;
+    display: flex;
+    margin-top: 10px;
+}
+#menu li a{
+    text-decoration: none;
+    color: #56316b;
+    margin: 40px;
+    font-weight: bold;
+}
+#menu li a:hover{
+    text-shadow: 0 0 5px #FFC0CB;
+}
+main{
+    width: 100%;
+    height: 600px;
+    background: #fe62b1;
+    border: 1px solid black;
+    float: left;
+}
+article{
+    width: 75%;
+    height: 600px;
+    background: #fe62b1;
+    border-left: 2px solid black;
+    float: right;
+}
+#titulo1{
+    margin-top: 20px;
+    text-align: center;
+    font-family: courier;
+    font-size: 46px;
+    color: #56316b;
+    font-weight: bold;
+}
+#titulo2{
+    margin-top: 20px;
+    text-align: center;
+    font-family: courier;
+    font-size: 32px;
+    color: #56316b;
+    font-weight: bold;
+}
+#logobyes{
+    width: 300px;
+    border-radius: 20px;
+    margin-left: 180px;
+}
+#frase{
+    margin-left: 185px;
+    font-family: courier;
+    font-size: 32px;
+    color: #56316b;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 2px 2px 3px #FFC0CB,3px 3px 9px deeppink;
+    margin-top: 40px;
+}
+aside{
+    width: 220px;
+    height: 600px;
+    background: #fe62b1;
+    float: left;
+    font-family: courier;
+}
+#asideProductos{
+    font-family: courier;
+    font-size: 26px;
+    margin-left: 42px;
+    margin-top: 30px;
+    color: #56316b;
+    text-shadow: 2px 2px 3px #FFC0CB,3px 3px 9px deeppink;
+    
+}
+aside ul{
+    list-style: none;
+}
+aside ul li{
+    padding: 50px 20px;
+}
+aside ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #56316b;
+    font-size: 20px;
+}
+aside ul li a:hover{
+    text-shadow: 3px 3px 7px #FFC0CB;
+}
+footer{
+    width: 100%;
+    height: 60px;
+    background: #fe62b1;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    float: left;
+    border: 1px solid black;
+} 
+p{
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+    margin-left: 270px;
+    font-weight: bold;
+}

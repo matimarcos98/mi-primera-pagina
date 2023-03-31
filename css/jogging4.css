@@ -1,0 +1,45 @@
+body{
+    background: linear-gradient(#C8A2C8,#FFC0CB) no-repeat;
+}
+#cajafoto{
+    width: 900px;
+    height: 900px;
+    margin: auto;
+}
+#izquierda,#derecha{
+    width: 100px;
+    height: 100px;
+    float: left;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 370px;
+}
+#derecha a, #izquierda a{
+    text-decoration: none;
+    color: black;
+}
+#derecha a:hover, #izquierda a:hover{
+    text-shadow: 2px 2px 3px #FFC0CB,3px 3px 7px deeppink,4px 4px 9px black;
+}
+#cerrar{
+    color: #663300;
+    font-size: 50px;
+}
+#cerrar a{
+    text-decoration: none;
+    color: black;
+}
+#cerrar a:hover{
+    text-shadow: 2px 2px 3px #FFC0CB,3px 3px 7px deeppink,4px 4px 9px black;
+}
+#fotos{
+    width: 700px;
+    height: 800px;
+    float: left;
+}
+.veo_img{
+    display: block;
+    margin: 0px auto;
+    height: 800px;
+    width: inherit;
+}
